@@ -18,11 +18,16 @@ Planned outputs include:
 - Cost recovery indicators for TransMilenio operations  
 - Sensitivity analysis of crowding disutility assumptions  
 
-Figures and tables will be added as the analysis progresses.
+## R Code
+The Code displays the calibration of a theoretical binary choice model that studies shifts in passenger demand for public transportation or motorcycles. The code is heavily determined by the underlying cost sensitivity (marginal cost of income) of users as well as the policy tool (financial or operational). The model is therefore tested along three key dimensions:
+-  Cost sensitivity of users 
+-  Policy tool implemented by policy-maker: pricing or service frequency changes
+-  Degree of cost recovery of the PT system
 
-## Status
-
-This project is part of ongoing academic research and is under active development. Results are preliminary.
+## Results
+- Cost recovery causes welfare losses through pricing burdens and crowdedness
+- Pricing is less effective than service frequency to steer crowding and amplify welfare levels
+- Underlying cost-sensitivity is crucial when assessing welfare and policy tools
 
 ## Disclaimer
 
