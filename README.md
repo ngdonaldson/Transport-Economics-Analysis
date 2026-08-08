@@ -1,35 +1,64 @@
-# Transport-Economics-Analysis
-## Cost Recovery and Crowding in Public Transport
-## A Welfare Analysis of Bogotá’s TransMilenio
-This project analyzes the trade-offs between fare levels, crowding, and cost recovery in Bogotá’s TransMilenio BRT system using a welfare economics framework. The analysis evaluates how different pricing and demand scenarios affect passenger welfare and operator cost recovery, with implications for public transport financing in rapidly growing Latin American cities.
+# Transport Economics Analysis
 
-## Data & methods:
-- Passenger demand and service data for Bogotá’s TransMilenio
-- Welfare analysis incorporating crowding disutility
-- Scenario-based simulations of fare and demand changes
-- Quantitative analysis conducted in R
+## Cost Recovery, Crowding and Passenger Welfare in Public Transport
 
-## Policy Relevance:
-Public transport systems in middle-income cities face persistent trade-offs between fare affordability, service quality, and financial sustainability. This analysis provides evidence on how pricing and crowding dynamics affect welfare outcomes, supporting policy discussions on subsidy design, fare setting, and service provision in BRT systems.
+This repository contains quantitative research on public transport
+economics, focusing on the trade-offs between passenger welfare,
+crowding, demand and cost recovery in Bogotá's TransMilenio BRT system.
 
-## Outputs
-Planned outputs include:
-- Welfare estimates under alternative fare and demand scenarios  
-- Cost recovery indicators for TransMilenio operations  
-- Sensitivity analysis of crowding disutility assumptions  
+The project combines a theoretical welfare model with empirical
+analysis of passenger flows to examine how pricing and service
+provision affect public transport outcomes.
 
-## R Code
-The Code displays the calibration of a theoretical binary choice model that studies shifts in passenger demand for public transportation or motorcycles. The code is heavily determined by the underlying cost sensitivity (marginal cost of income) of users as well as the policy tool (financial or operational). The model is therefore tested along three key dimensions:
--  Cost sensitivity of users 
--  Policy tool implemented by policy-maker: pricing or service frequency changes
--  Degree of cost recovery of the PT system
+## Research Questions
 
-## Results
-- Cost recovery causes welfare losses through pricing burdens and crowdedness
-- Pricing is less effective than service frequency to steer crowding and amplify welfare levels
-- Underlying cost-sensitivity is crucial when assessing welfare and policy tools
+- How do fare levels and crowding affect passenger welfare?
+- How do pricing and service-frequency policies affect demand?
+- How does the degree of cost recovery affect welfare outcomes?
+- How are passenger flows distributed across stations during peak
+  periods?
 
-## Disclaimer
+## Methods
 
-This analysis was conducted for academic and research purposes. All views and interpretations are the author’s own.
+The analysis combines:
 
+- Welfare economics
+- Binary choice demand modelling
+- Crowding disutility
+- Scenario-based simulations
+- Calibration of passenger demand
+- Empirical analysis of station-level passenger flows
+- Sensitivity analysis
+- Quantitative analysis in R
+
+## Empirical Case: Bogotá TransMilenio
+
+A separate empirical component analyzes boarding and alighting
+patterns on Trunk Line F during the morning peak period.
+
+The analysis calculates:
+
+- Station-level entries
+- Station-level exits
+- Boarding-to-alighting ratios
+- Relative passenger flows across stations
+
+## Repository Structure
+
+```text
+Transport-Economics-Analysis/
+│
+├── README.md
+├── R/
+│   ├── main_analysis.R
+│   └── line_F_analysis.R
+│
+├── data/
+│   └── README.md
+│
+└── results/
+    ├── combined_results.csv
+    ├── boarding_alighting_ratio.png
+    ├── entries_exits_per_station.png
+    ├── entries_per_station.png
+    └── exits_per_station.png
