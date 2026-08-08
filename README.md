@@ -57,8 +57,3 @@ Transport-Economics-Analysis/
 │   └── README.md
 │
 └── results/
-    ├── combined_results.csv
-    ├── boarding_alighting_ratio.png
-    ├── entries_exits_per_station.png
-    ├── entries_per_station.png
-    └── exits_per_station.png
